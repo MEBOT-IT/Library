@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/6e4651c5e7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/log.css">
+    <link rel="stylesheet" href="./css/log.css">
 </head>
 
 <body>
@@ -42,7 +42,7 @@
                     <p id="email-error"></p>
     
                     <input id="pwd1"  type="password" class="input-field" placeholder="Enter Password" required>
-                    <img id="eye-close1" src="../images/eye-icons/eye-close.png" alt="">
+                    <img id="eye-close1" src="./images/eye-icons/eye-close.png" alt="">
                     <p id="message">Password is <span id="strength">value</span></p> 
                     
                     <input type="checkbox" class="chech-box"><span>I agree to the <a href="t&c.html">terms & conditions</a></span>
@@ -110,11 +110,11 @@
         eyeicon.onclick = function () {
             if (password.type == "password") {
                 password.type = "text";
-                eyeicon.src = "../images/eye-icons/eye-open.png";
+                eyeicon.src = "./images/eye-icons/eye-open.png";
             }
             else {
                 password.type = "password";
-                eyeicon.src = "../images/eye-icons/eye-close.png";
+                eyeicon.src = "./images/eye-icons/eye-close.png";
             }
         }
         eyeicon1.onclick = function () {
